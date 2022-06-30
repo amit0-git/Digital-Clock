@@ -44,9 +44,12 @@ function promptbox(){
     if (person == null || person == "") {
         
     name = "";
-    } else {
-        document.cookie="name="+person;
+    }
+     else {
         name = person;
+        document.cookie="name="+name;
+        console.log(document.cookie);
+       
 
     }
     location.reload();//reload the document after assigning the new name
@@ -58,6 +61,7 @@ function greetbox(){
         wish(getname(document.cookie),hour1);
 
     }
+   
     
    
    
@@ -74,7 +78,7 @@ function wish(name,hour){
         greetdiv.innerHTML="Good Afternoon "+name+" !";
     }
     else{
-        greetdiv.innerHTML="Good Afternoon "+name+" !";
+        greetdiv.innerHTML="Good Evening "+name+" !";
     }
 
 }
@@ -82,8 +86,7 @@ function wish(name,hour){
 greetbox();
 
 
-async function abc(){
-    await setInterval(displayDate,1000);
+
+setInterval(displayDate,1000);
     
-}
-abc();
+
