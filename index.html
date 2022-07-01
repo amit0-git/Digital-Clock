@@ -15,7 +15,12 @@ E-mail:-root.avanti@gmail.com -->
 <body>
     <style>
         body {
-            background-color: rgb(245, 232, 226);
+            background-size: cover;
+            background-attachment: fixed;
+            background-color: bisque;
+            background-repeat: no-repeat;
+            background-image: url("images/woman-7281733_1920.jpg");
+
 
         }
 
@@ -102,6 +107,8 @@ E-mail:-root.avanti@gmail.com -->
             bottom: 0px;
         }
 
+        /*Author:-Amit Verma
+E-mail:-root.avanti@gmail.com */
         #greet {
             font-size: 40px;
             color: red;
@@ -115,8 +122,10 @@ E-mail:-root.avanti@gmail.com -->
 
         #changename button {
             border: none;
-            background-color: rgb(245, 232, 226);
-            font-size: 15px;
+            background: transparent;
+            font-size: 16px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-style: italic;
             position: absolute;
             top: 10px;
             right: 10px;
@@ -124,6 +133,25 @@ E-mail:-root.avanti@gmail.com -->
         }
 
         #changename button:hover {
+            cursor: pointer;
+        }
+
+        /*Author:-Amit Verma
+E-mail:-root.avanti@gmail.com */
+        #changeimg {
+
+            margin-top: 15px;
+        }
+
+        #changeimg button {
+            border: none;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-style: italic;
+            font-size: 16px;
+            background-color: transparent;
+        }
+
+        #changeimg button:hover {
             cursor: pointer;
         }
 
@@ -147,6 +175,8 @@ E-mail:-root.avanti@gmail.com -->
 
             }
 
+            /*Author:-Amit Verma
+E-mail:-root.avanti@gmail.com */
             #greet {
                 font-size: 30px;
                 color: red;
@@ -160,8 +190,17 @@ E-mail:-root.avanti@gmail.com -->
 
         }
     </style>
+
+    <div id="changeimg">
+        <button onclick="changebg()">
+            Change Background
+
+        </button>
+    </div>
+    <!-- Author:-Amit Verma
+E-mail:-root.avanti@gmail.com -->
     <div id="changename">
-        <button onclick="promptbox()">Change Name</button>
+        <button id="btn" onclick="promptbox()">Change Name</button>
     </div>
     <div id="greet">Good Morning Sir!</div>
     <div class="clock">
@@ -172,7 +211,8 @@ E-mail:-root.avanti@gmail.com -->
         <div id="sec">00</div>
 
     </div>
-
+    <!-- Author:-Amit Verma
+E-mail:-root.avanti@gmail.com -->
     <div class="dev">Designed By-<strong>Amit Verma</a></strong></div>
     <div class="logo"><a href="https://github.com/amit0-git" target="_blank"><img
                 src="maxresdefault-removebg-preview.png" alt="" srcset=""></a></div>

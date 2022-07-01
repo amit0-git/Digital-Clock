@@ -88,3 +88,16 @@ greetbox();
 setInterval(displayDate, 1000);
 
 
+
+var images = ["images/pexels-alexander-kovalev-2847648.jpg", "images/pexels-belle-co-672913.jpg", "images/pexels-lumn-311039.jpg", "images/pexels-miguel-á-padriñán-255379.jpg", "images/pexels-scott-webb-3255761.jpg", "images/abstract-1846979_1920.jpg", "images/pexels-simon-berger-1323550.jpg", "images/v748-toon-111.jpg", "images/cloudy-2294671_1920.jpg", "images/plants-6205510_1920.jpg", "images/tree-5414036_1920.jpg", "images/woman-7281733_1920.jpg"];
+var imgindex = 0;
+function changebg() {
+    //function for toggling different images
+    
+    document.body.style.backgroundImage = "url(" + images[imgindex] + ")";
+    imgindex += 1;
+    if (imgindex > 11) {
+        imgindex = 0;
+    }
+
+}
