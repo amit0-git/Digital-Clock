@@ -1,4 +1,4 @@
 # Digital-Clock
 Digital Clock using HTML,CSS and Javascript.
 
-![Screenshot from 2022-06-30 16-53-45](https://user-images.githubusercontent.com/54703731/176676409-6c751a15-2044-478c-a2e3-02a227984f68.png)
+![Screenshot from 2022-07-01 22-22-50](https://user-images.githubusercontent.com/54703731/176937849-b0a465ae-59b0-4796-b6ee-36355e3be13f.png)
